@@ -8,7 +8,6 @@ import android.widget.LinearLayout
 class KeyboardService : InputMethodService() {
 
     override fun onCreateInputView(): View {
-
         val layout = LinearLayout(this)
         layout.orientation = LinearLayout.HORIZONTAL
 
